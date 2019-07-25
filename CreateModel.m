@@ -339,7 +339,7 @@ if strcmp(plst,'PLS1')||strcmp(plst,'PLS1 et PLS2')
     
     chxpret = questdlg('Which preprocessing would you like to do?','Preprocessing','Raw','All','Raw');
     
-    if strcmp(chxpret,'Raw')
+    if strcmp(chxpret,'All')
         h = waitbar(0,'PLS-CV-boostrap');
         iter=1;
         for k=1:nbiterboostrap
