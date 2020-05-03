@@ -26,8 +26,10 @@ Two types of data are mandatory to use this toolbox. First, an hyperspectral ima
 Generally, the hyperspectral image unity is reflectance (R). According to Beer-Lambert law, the chemical concentration of a compound is related to the absorbance (A). Thus, the hyperspectral image can be converted in pseudo-absorbance with the formula: A=log(1/R).
 
 ## Depth calibration
+The two depth vectors are then compared to find the hyperspectral pixels related to a sampling area.
 
 ## Spectral preprocessing
+![](Preprocessing.jpg)
 
 ## Normalization
 
