@@ -20,10 +20,10 @@ Jacq, K., Giguet-Covex, C., et al. (2019) High-resolution grain size distributio
 
 ## Raw data
 
-Two types of data are mandatory to use this toolbox. First, an hyperspectral image (M) and some information, depth (dm) and wavelength (wl). Secondly, the variable(s) to predict (Y), that can be a vector or a matrix, its sampling depth vector (dy) and the label (Yn).
+Two types of data are mandatory to use this toolbox. First, a hyperspectral image (M) and some information, depth (dm), and wavelength (wl). Secondly, the variable(s) to predict (Y), that can be a vector or a matrix, its sampling depth vector (dy), and the label (Yn).
 
 ## Reflectance or pseudo-absorbance
-Generally, the hyperspectral image unity is reflectance (R). According to Beer-Lambert law, the chemical concentration of a compound is related to the absorbance (A). Thus, the hyperspectral image can be converted in pseudo-absorbance with the formula: A=log(1/R).
+Generally, the hyperspectral image unity is reflectance (R). According to Beer-Lambert law, the chemical concentration of a compound is related to the absorbance (A). Thus, the hyperspectral image can be converted into pseudo-absorbance with the formula: A=log(1/R).
 
 ## Depth calibration
 The two depth vectors are then compared to find the hyperspectral pixels related to a sampling area.
@@ -31,14 +31,14 @@ The two depth vectors are then compared to find the hyperspectral pixels related
 ## Spectral preprocessing
 ![](Preprocessing.jpg)
 
-In this toolbox, four main preprocessing are used, also nine combinations of them. Thus, thirteen preprocessing and the raw data are compared to find an optimal one. They allow to reduce noise and highlights relevant spectral information to predict the interest variable(s).
+In this toolbox, four main preprocessing are used, also nine combinations of them. Thus, thirteen preprocessing and the raw data are compared to find an optimal one. They allow to reduce noise and highlight relevant spectral information to predict the interest variable(s).
 
-Detending is used to remove the baseline. Multiplicative Scatter Correction (MSC) and Standard Normal Variate (SNV) are used to correct the spectra from light scaterring. The Savitzky–Golay filter is used to derivate the spectra and to reduce additive effects (baseline offset and slope).
+Detrending is used to remove the baseline. Multiplicative Scatter Correction (MSC) and Standard Normal Variate (SNV) are used to correct the spectra from light scattering. The Savitzky–Golay filter is used to derivate the spectra and to reduce additive effects (baseline offset and slope).
 
 ```markdown
 Vidal, M., Amigo, J.M. (2012) Pre-processing of hyperspectral images. Essential steps before image analysis. Chemometrics and Intelligent Laboratory Systems 117: 138–148
 
-Rinnan, Å., Berg, F. van den, Engelsen, S.B. (2009) Review of the most common pre-processing techniques for near-infrared spectra. TrAC Trends in Analytical Chemistry 28: 1201–1222
+Rinnan, Å., Berg, F. van den, Engelsen, S.B. (2009) Review of the most common preprocessing techniques for near-infrared spectra. TrAC Trends in Analytical Chemistry 28: 1201–1222
 
 Barnes, R.J., Dhanoa, M.S., Lister, S.J. (1989) Standard Normal Variate Transformation and De-Trending of Near-Infrared Diffuse Reflectance Spectra. Applied Spectroscopy 43: 772–777
 
@@ -46,9 +46,13 @@ Savitzky, A., Golay, M.J.E. (1964) Smoothing and Differentiation of Data by Simp
 ```
 
 ## Normalization
-
+Second spectral processing can be used to normalized the signal base on the mean and standard deviation of the hyperspectral image. Thus, centering or autoscaling can be chosen by the user.
 
 ## Subsampling
+In order to combine each sampling value to one spectrum, subsampling must be made. Several approaches can be used:
+*  Sample main compound:
+** The most simpler to understand are to select a median or averaged spectrum of the sampling areas. We recommand to use these approaches for a discontinuous distribution of the interest variable. Thus, one spectra set is created.
+** Random selection can be used in the case of a normal distribution to find optimal spectra related to the interest value. In this case, several spectra set are created and the optimal one was selected based on the model performances.
 
 ## Optimal preprocessing
 
