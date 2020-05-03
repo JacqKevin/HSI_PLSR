@@ -47,6 +47,7 @@ Savitzky, A., Golay, M.J.E. (1964) Smoothing and Differentiation of Data by Simp
 
 ## Normalization
 
+
 ## Subsampling
 
 ## Optimal preprocessing
