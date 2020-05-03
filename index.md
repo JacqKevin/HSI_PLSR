@@ -16,7 +16,7 @@ Jacq, K., Giguet-Covex, C., et al. (2019) High-resolution grain size distributio
 
 # Worflow
 
-![](CreateModel.jpg | width=250)
+![](CreateModel.jpg =600x)
 
 ## Raw data
 
