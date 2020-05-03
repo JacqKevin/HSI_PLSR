@@ -62,8 +62,7 @@ Kennard, R.W., Stone, L.A. (1969) Computer Aided Design of Experiments. Technome
 ```
 
 ## Optimal preprocessing
-
-## Complete model estimation
+Based on the model performances (correlation, standard error, uncertainty), the optimal preprocessing and learning spectral set are selected to estimate the **best PLSR model for the interest variable(s)**.
 
 ## Variable selection
 
