@@ -1,4 +1,10 @@
-# Matlab Toolbox for the creation of a PLSR model with HSI data
+---
+layout: page
+title: Partial Least Squares regression modeling
+description: Matlab Toolbox for the creation of a PLSR model
+---
+
+# Matlab Toolbox for the creation of a PLSR model
 
 Please cite :
 
