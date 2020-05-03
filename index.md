@@ -36,7 +36,7 @@ In this toolbox, four main preprocessing are used, also nine combinations of the
 Detrending is used to remove the baseline. Multiplicative Scatter Correction (MSC) and Standard Normal Variate (SNV) are used to correct the spectra from light scattering. The Savitzky–Golay filter is used to derivate the spectra and to reduce additive effects (baseline offset and slope).
 
 ```markdown
-Vidal, M., Amigo, J.M. (2012) Pre-processing of hyperspectral images. Essential steps before image analysis. Chemometrics and Intelligent Laboratory Systems 117: 138–148
+Vidal, M., Amigo, J. M. (2012) Pre-processing of hyperspectral images. Essential steps before image analysis. Chemometrics and Intelligent Laboratory Systems 117: 138–148
 
 Rinnan, Å., Berg, F. van den, Engelsen, S.B. (2009) Review of the most common preprocessing techniques for near-infrared spectra. TrAC Trends in Analytical Chemistry 28: 1201–1222
 
@@ -66,7 +66,7 @@ Based on the model performances (correlation, standard error, uncertainty), the 
 
 ## Variable selection
 
-Generally, all the wavelengths are not necessary to predict an interest variable. Some can contain redundant information, whereas other are noisy or have not usefull information, thus, they can induced miss-learning or bias. Therefore, it is recommanded to remove them to increase the model performances. Seven variable selection algorithms are implemented base on the two toolboxes cited below: 
+Generally, all the wavelengths are not necessary to predict an interest variable. Some can contain redundant information, whereas others are noisy or have not useful information. Thus, they can induce miss-learning or bias. Therefore, it is recommended to remove them to increase the model performances. Seven variable selection algorithms are implemented base on the two toolboxes cited below: 
 * Variable Importance in Projection (VIP)
 * Target Projection (TP)
 * Uninformative Variable Elimination (UVE)
@@ -82,3 +82,4 @@ Leardi, R., Lupiáñez, A. (1998) Genetic algorithms applied to feature selectio
 ```
 
 ## Reduce model estimation
+The toolbox based on a selection of an optimal preprocessing, a relevant learning spectral dataset, and a variable selection allows to **create a performant, robust, and reduce PLSR model**.
