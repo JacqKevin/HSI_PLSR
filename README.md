@@ -1,5 +1,4 @@
-# HSI_PLSR
-Matlab Toolbox for the creation of a PLSR model with HSI data
+# Matlab Toolbox for the creation of a PLSR model with HSI data
 
 Please cite :
 
@@ -8,3 +7,7 @@ Jacq, K., Perrette, Y., et al. (2019) High-resolution prediction of organic matt
 or
 
 Jacq, K., Giguet-Covex, C., et al. (2019) High-resolution grain size distribution of sediment core with hyperspectral imaging. Sedimentary Geology 393–394:
+
+# Worflow
+
+![](CreateModel.jpg)
