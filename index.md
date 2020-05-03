@@ -50,9 +50,10 @@ Second spectral processing can be used to normalized the signal base on the mean
 
 ## Subsampling
 In order to combine each sampling value to one spectrum, subsampling must be made. Several approaches can be used:
-*  Sample main compound:
+*  Sample main chemical compounds (organic matter, particle size):
 	* The most simpler to understand are to select a median or averaged spectrum of the sampling areas. We recommand to use these approaches for a discontinuous distribution of the interest variable. Thus, one spectra set is created.
 	* Random selection can be used in the case of a normal distribution to find optimal spectra related to the interest value. In this case, several spectra set are created and the optimal one was selected based on the model performances.
+*  Sample minor chemical compounds (coal, particles):
 
 ## Optimal preprocessing
 
