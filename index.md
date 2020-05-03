@@ -56,6 +56,10 @@ In order to combine each sampling value to one spectrum, subsampling must be mad
 *  Sample minor chemical compounds (coal, particles):
 	* To find these localized pixels, a most advanced study of the distribution must be made. If the spectra are associated with extreme, minima, and maxima spectrum is selected. Otherwise, Kennard and stone can be used to find the most different spectra in the sampling area. Thus, one or several learning spectral set(s) is/are estimated.
 
+```markdown
+Kennard, R.W., Stone, L.A. (1969) Computer Aided Design of Experiments. Technometrics 11: 137–148
+```
+
 ## Optimal preprocessing
 
 ## Complete model estimation
