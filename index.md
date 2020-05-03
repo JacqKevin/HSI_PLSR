@@ -66,6 +66,15 @@ Based on the model performances (correlation, standard error, uncertainty), the 
 
 ## Variable selection
 
+Generally, all the wavelengths are not necessary to predict an interest variable. Some can contain redundant information, whereas other are noisy or have not usefull information, thus, they can induced miss-learning or bias. Therefore, it is recommanded to remove them to increase the model performances. Seven variable selection algorithms are implemented base on the two toolboxes cited below: 
+* Variable Importance in Projection (VIP)
+* Target Projection (TP)
+* Uninformative Variable Elimination (UVE)
+* Competitive Adaptive Reweighted Sampling (CARS)
+* Random Frog (RF)
+* Variable Complementary Network (VCN)
+* Genetic Algorithm PLS (GA-PLS)
+
 ```markdown
 Li, H., Xu, Q., Liang, Y. (2014) libPLS: An Integrated Library for Partial Least Squares Regression and Discriminant Analysis. PeerJ PrePrints
 
