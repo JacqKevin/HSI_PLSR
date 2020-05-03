@@ -20,10 +20,10 @@ Jacq, K., Giguet-Covex, C., et al. (2019) High-resolution grain size distributio
 
 ## Raw data
 
-X
-Y
+Two types of data are mandatory to use this toolbox. First, an hyperspectral image (M) and some information, depth (dm) and wavelength (wl). Secondly, the variable(s) to predict (Y), that can be a vector or a matrix, its sampling depth vector (dy) and the label (Yn).
 
 ## Reflectance or pseudo-absorbance
+Generally, the hyperspectral image unity is reflectance (R). According to Beer-Lambert law, the chemical concentration of a compound is related to the absorbance (A). Thus, the hyperspectral image can be converted in pseudo-absorbance with the formula: A=log(1/R).
 
 ## Depth calibration
 
