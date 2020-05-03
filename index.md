@@ -68,4 +68,10 @@ Based on the model performances (correlation, standard error, uncertainty), the 
 
 ## Variable selection
 
+```markdown
+Li, H., Xu, Q., Liang, Y. (2014) libPLS: An Integrated Library for Partial Least Squares Regression and Discriminant Analysis. PeerJ PrePrints
+
+Leardi, R., Lupiáñez, A. (1998) Genetic algorithms applied to feature selection in PLS regression: how and when to use them. Chemometrics and Intelligent Laboratory Systems 41: 195–207
+```
+
 ## Reduce model estimation
