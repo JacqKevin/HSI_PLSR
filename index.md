@@ -18,6 +18,8 @@ Jacq, K., Giguet-Covex, C., et al. (2019) High-resolution grain size distributio
 
 ![](CreateModel.jpg =250x)
 
+<img src="CreateModel.jpg" width="250"/>
+
 ## Raw data
 
 Two types of data are mandatory to use this toolbox. First, an hyperspectral image (M) and some information, depth (dm) and wavelength (wl). Secondly, the variable(s) to predict (Y), that can be a vector or a matrix, its sampling depth vector (dy) and the label (Yn).
