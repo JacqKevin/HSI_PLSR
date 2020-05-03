@@ -51,10 +51,11 @@ Second spectral processing can be used to normalized the signal base on the mean
 ## Subsampling
 In order to combine each sampling value to one spectrum, subsampling must be made. Several approaches can be used:
 *  Sample main chemical compounds (organic matter, particle size):
-	* The most simpler to understand is to select a median or averaged spectrum of the sampling areas. We recommend to use these approaches for a discontinuous distribution of the interest variable. Thus, one learning spectral set is created.
+	* The most simpler to understand is to select a median or averaged spectrum of the sampling areas. We recommend to use these approaches for a discontinuous distribution of the interest variable. Thus, one learning spectral set is created. 
+To increase spectral variations, the image can be divided along the depth to create multiple images, and thus increase the selected learning spectra. It can be made if the lateral variations of the sample are negligible.
 	* Random selection can be used in the case of a normal distribution to find optimal spectra related to the interest value. In this case, several learning spectral sets are created, and the optimal one was selected based on the model performances.
 *  Sample minor chemical compounds (coal, particles):
-	* To find these localized pixels, a most advanced study of the distribution must be made. If the spectra are associated with extreme, minima, and maxima spectrum is selected. Otherwise, Kennard and stone can be used to find the most different spectra in the sampling area. Thus, one or several learning spectral set(s) is/are estimated.
+	* To find these localized pixels, a most advanced study of the distribution must be made. If the spectra are associated with extreme, minima, and maxima spectrum is selected. Otherwise, Kennard and Stone can be used to find the most different spectra in the sampling area. Thus, one or several learning spectral set(s) is/are estimated.
 
 ```markdown
 Kennard, R.W., Stone, L.A. (1969) Computer Aided Design of Experiments. Technometrics 11: 137–148
