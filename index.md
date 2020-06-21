@@ -1,9 +1,3 @@
----
-layout: default
-title: Partial Least Squares regression modeling
-description: Matlab Toolbox for the creation of a PLSR model
----
-
 # Matlab Toolbox for the creation of a PLSR model
 
 If you use this toolbox, we would appreciate a reference to one of the following papers
